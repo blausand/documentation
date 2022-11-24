@@ -218,6 +218,7 @@ modules need to be enabled:
 Administrators can verify whether this security change is active by accessing a 
 static resource served by the Web server and verify that the above mentioned 
 security headers are shipped.
+Apache 2 ships this command to list enabled modules in your shell: ``a2query -m``
 
 .. _Mozilla SSL Configuration Generator: https://mozilla.github.io/server-side-tls/ssl-config-generator/
 .. _Qualys SSL Labs Test: https://www.ssllabs.com/ssltest/
